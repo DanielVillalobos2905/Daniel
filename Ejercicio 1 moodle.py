@@ -1,0 +1,6 @@
+H = int(input ('Ingrese el valor de H:'))
+M = int(input ('Ingrese el valor de M:'))
+S = int(input ('Ingrese el valor de S:'))
+print (H*3600)
+print (M*60)
+print (S)
