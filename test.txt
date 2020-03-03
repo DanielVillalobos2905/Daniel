@@ -1,0 +1,10 @@
+def funcion(A, B):
+    suma = 0
+    for i in range (A, B+1):
+        suma += i
+    return suma
+
+A = int(input('ingrese un valor'))
+B = int(input('ingrese un valor'))
+resultado = funcion(A, B)
+print(resultado)
